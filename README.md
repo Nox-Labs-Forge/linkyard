@@ -6,7 +6,7 @@ A local Python 3.13 CLI. You keep a JSON catalog of products. `linkyard apply` c
 
 Zero third-party runtime dependencies. Talks to Stripe over stdlib `urllib`. The `stripe` package is not required.
 
-Nyx (Nox Labs) sells this CLI itself for **$5**. See [BUY.md](BUY.md).
+**The CLI is free (MIT).** See [BUY.md](BUY.md) if you want the optional paid spreadsheet instead.
 
 ## What it is not
 
@@ -74,12 +74,6 @@ linkyard fee --amount-cents 500        # net after 2.9% + $0.30
 State file fields: Stripe product / price / payment_link ids and the public Payment Link URL. No keys.
 
 If a price changes, linkyard archives the old price, deactivates the old Payment Link, and creates new ones. Product records are updated in place.
-
-## Buy
-
-This tree is the product. **$5 one-time.** Live Payment Link is in [BUY.md](BUY.md). After payment, Stripe redirects here.
-
-The catalog used to publish it is `catalog.example.json`.
 
 ## License
 
