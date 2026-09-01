@@ -1,0 +1,12 @@
+{
+  "products": [
+    {
+      "id": "linkyard",
+      "name": "linkyard",
+      "description": "Payment Link catalog-as-code CLI. Sync a JSON catalog to Stripe Products, Prices, and Payment Links.",
+      "amount_cents": 500,
+      "currency": "usd",
+      "after_completion": "https://github.com/Nox-Labs-Forge/linkyard"
+    }
+  ]
+}
