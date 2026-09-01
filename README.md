@@ -75,13 +75,11 @@ State file fields: Stripe product / price / payment_link ids and the public Paym
 
 If a price changes, linkyard archives the old price, deactivates the old Payment Link, and creates new ones. Product records are updated in place.
 
-## Dogfooding this repo
+## Buy
 
-This tree is the product. After the GitHub repo exists:
+This tree is the product. **$5 one-time.** Live Payment Link is in [BUY.md](BUY.md). After payment, Stripe redirects here.
 
-1. Copy `catalog.example.json` → `catalog.json` (already the $5 SKU).
-2. `linkyard apply` against live Stripe.
-3. Paste the Payment Link URL into `BUY.md` replacing `PAYMENT_LINK_URL_HERE`.
+The catalog used to publish it is `catalog.example.json`.
 
 ## License
 
